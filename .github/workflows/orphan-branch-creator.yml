@@ -6,7 +6,7 @@ on:
       branch_name:
         description: 'Enter branch name'
         required: true
-        default: 'new-branch'
+        default: 'new-orphan-branch'
       branch_type:
         description: 'Select branch type'
         type: choice
