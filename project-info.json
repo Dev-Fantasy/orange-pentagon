@@ -3,6 +3,7 @@
   "repository_name": "repo_name",
   "authors": ["your-name", "Dev-Fantasy"],
   "description": "project description",
+  "status": "Active",
   "license": "Custom",
   "license_file": "LICENSE.md"
 }
