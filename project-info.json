@@ -1,0 +1,8 @@
+{
+  "project_name": "name",
+  "repository_name": "repo_name",
+  "authors": ["your-name", "Dev-Fantasy"],
+  "description": "project description",
+  "license": "Custom",
+  "license_file": "LICENSE.md"
+}
