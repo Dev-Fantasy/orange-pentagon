@@ -5,6 +5,8 @@
   "description": "project description",
   "tech_stack": [],
   "status": "Active",
-  "license": "Custom",
-  "license_file": "LICENSE.md"
+  "license_info": {
+    "type": "Custom",
+    "license_file": "LICENSE.md"
+  }
 }
