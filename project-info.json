@@ -1,8 +1,9 @@
 {
-  "project_name": "name",
+  "project_name": "project name",
   "repository_name": "repo_name",
-  "authors": ["your-name", "Dev-Fantasy"],
+  "authors": [],
   "description": "project description",
+  "tech_stack": [],
   "status": "Active",
   "license": "Custom",
   "license_file": "LICENSE.md"
