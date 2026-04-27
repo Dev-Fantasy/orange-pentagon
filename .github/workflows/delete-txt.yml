@@ -1,0 +1,24 @@
+name: Delete .txt Files
+
+on:
+  workflow_dispatch:
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Find and delete files named '.txt'
+        run: |
+          find . -type f -name ".txt" -delete
+          echo "Deletion process completed."
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Cleanup: Removed files named .txt" && git push)
+          
