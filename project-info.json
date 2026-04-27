@@ -1,0 +1,12 @@
+{
+  "project_name": "project name",
+  "repository_name": "repo_name",
+  "authors": [],
+  "description": "project description",
+  "tech_stack": [],
+  "status": "Active",
+  "license_info": {
+    "type": "Custom",
+    "license_file": "LICENSE.md"
+  }
+}
